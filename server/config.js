@@ -1,0 +1,8 @@
+const dotenv = require('dotenv');
+dotenv.config();
+module.exports = {
+  SERVICE_OAUTH_ENDPOINT: process.env.SERVICE_OAUTH_ENDPOINT,
+  SERVICE_CLIENT_ID: process.env.SERVICE_CLIENT_ID,
+  SERVICE_CLIENT_SECRET: process.env.SERVICE_CLIENT_SECRET,
+  SERVICE_REPORTS_STATUS_ENDPOINT: process.env.SERVICE_REPORTS_STATUS_ENDPOINT
+};

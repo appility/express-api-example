@@ -1,0 +1,57 @@
+<main class="column">
+  <div class="level">
+    <div class="level-left">
+      <div class="level-item">
+        <div class="title">Dashboard</div>
+      </div>
+    </div>
+    <div class="level-right">
+      <div class="level-item">
+        <button type="button" class="button is-small">
+        Last updated:
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="columns is-multiline">
+    <div class="column">
+      <div class="box">
+        <div id="inject-template-reports-numbers">
+          <img class="logo" src="/img/loading.svg" alt="" style="width:40px; height: 40px;"/>
+        </div>
+      </div>  
+    </div>
+    <div class="column">
+      <div class="box">
+        <div class="heading">Uptime</div>
+        <div class="title">99% &uarr;</div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="box">
+        <div class="heading">Disk space remaining</div>
+        <div class="title">82%</div>
+      </div>
+    </div>
+  </div>
+  <div class="columns is-multiline">
+    <div class="column is-6">
+      <div class="panel">
+        <div id="inject-template-reports">
+          <img src="/img/loading.svg" alt="" style="width:40px; height: 40px; padding: 1.25rem;"/>
+        </div>
+      </div>
+    </div>
+    <div class="column is-6">
+      <div class="panel">
+        <p class="panel-heading">
+          Alerts over time
+        </p>
+        <div class="panel-block">
+          <canvas id="line-chart"></canvas>
+        </div>
+      </div>
+    </div> 
+  </div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
